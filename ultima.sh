@@ -43,7 +43,7 @@ while [ $contador -lt $registros ];
     done
 
 echo "Insertando datos..."
-sleep 10
+sleep 15
 
 mysql -h $host -u $usuario -p$contrasena < /Users/Almaraz10/Desktop/Prueba/plantilla.sql
 
@@ -61,7 +61,7 @@ echo "la base se ha exportado con exito! "
 git init
 git add .
 git commit -m "first commit"
-git remote add origin https://github.com/Almaraz10/topicos.git
+git remote add origin https://github.com/Almaraz10/topicos2.git
 git push -u origin master
 
 sleep 5
